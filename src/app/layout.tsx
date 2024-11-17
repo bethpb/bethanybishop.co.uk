@@ -89,8 +89,6 @@ const styles = cva([
   'antialiased',
 ]);
 
-export const runtime = 'edge';
-
 export const metadata: Metadata = {
   title: {
     template: '%s - Bethany Bishop',
