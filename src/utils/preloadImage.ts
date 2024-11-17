@@ -4,7 +4,9 @@ const cache = new Map<string, HTMLImageElement>();
 function evictCache() {
   while (cache.size > MAX_CACHE_SIZE) {
     const firstKey = cache.keys().next().value;
-    cache.delete(firstKey);
+    if (firstKey) {
+      cache.delete(firstKey);
+    }
   }
 }
 
