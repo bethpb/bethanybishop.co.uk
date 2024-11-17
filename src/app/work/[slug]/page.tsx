@@ -27,10 +27,11 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({
-  params,
+  params: paramsFromProps,
 }: {
-  params: Params;
+  params: Promise<Params>;
 }): Promise<Metadata> {
+  const params = await paramsFromProps;
   const project = findProject(params.slug);
 
   if (!project) {
@@ -43,7 +44,12 @@ export async function generateMetadata({
   };
 }
 
-export default function WorkPage({ params }: { params: Params }) {
+export default async function WorkPage({
+  params: paramsFromProps,
+}: {
+  params: Promise<Params>;
+}) {
+  const params = await paramsFromProps;
   const project = findProject(params.slug);
 
   if (!project) {
