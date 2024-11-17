@@ -36,6 +36,7 @@ export default forwardRef<HTMLDivElement, Props>(function Highlight(
           href={highlight.button.href}
           target="_blank"
           rel="noopener noreferrer"
+          prefetch={false}
         >
           {highlight.button.icon}
           {highlight.button.label}
@@ -53,6 +54,7 @@ export default forwardRef<HTMLDivElement, Props>(function Highlight(
         target="_blank"
         rel="noopener noreferrer"
         whileHover="hover"
+        prefetch={false}
       >
         <MotionImage
           src={highlight.thumbnail.image.src}
