@@ -8,7 +8,7 @@ import Logo from './Logo';
 import ButtonLink from './ButtonLink';
 import { containerVariants, childVariants } from '@/variants';
 
-const MotionButtonLink = motion(ButtonLink);
+const MotionButtonLink = motion.create(ButtonLink);
 
 export default function Hero() {
   return (

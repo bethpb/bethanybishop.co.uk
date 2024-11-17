@@ -439,106 +439,135 @@ export const PROJECTS = [
   //   ],
   //   recordings: null,
   // },
-  // {
-  //   slug: 'robin-radar',
-  //   thumbnail: {
-  //     title: 'Robin Radar',
-  //     subtitle: 'Writing leading B2B technology',
-  //     image: {
-  //       src: RobinRadarThumbnail,
-  //       alt: 'Robin Radar',
-  //     },
-  //     label: 'Read more',
-  //   },
-  //   intro: {
-  //     title: 'Radar love',
-  //     description: (
-  //       <>
-  //         <p>
-  //           We are Robin Radar Systems. Technology leader in tracking and
-  //           classification of small objects in airspace.
-  //         </p>
-  //         <p>
-  //           Our technology is installed all over the globe, but it all started
-  //           in The Netherlands. In cooperation with the Royal Netherlands Air
-  //           Force, and later, the European Space Agency (ESA), TNO began
-  //           developing unique algorithms to use radar. The technology had huge
-  //           potential, and Robin Radar Systems was spun out of TNO in 2010. The
-  //           rest, as they say, is history.
-  //         </p>
-  //         <p>A lot has changed since, and today’s market demands even more.</p>
-  //         <p>
-  //           Every day, airports and airfields are confronted with the difficult
-  //           task of mitigating the risk of bird strikes. Then there’s drones,
-  //           the entirely unpredictable threat plaguing defence and security
-  //           teams and critical infrastructure.
-  //         </p>
-  //         <p>
-  //           Our radars have been developed for these very challenges. Unlike
-  //           human observers, radars don’t need rest and can see in all weather,
-  //           day and night. They provide detailed insight in real-time and
-  //           distinguish birds from drones with innovative micro-doppler
-  //           technology.
-  //         </p>
-  //         <p>
-  //           They're built for accuracy, durability and ease of use. You don't
-  //           have to be a rocket scientist to operate our systems, you don't even
-  //           need to be a radar scientist!
-  //         </p>
-  //         <p>
-  //           But don't just take our word for it. Reach out for a demonstration
-  //           today.
-  //         </p>
-  //       </>
-  //     ),
-  //     image: {
-  //       src: RobinRadarIntro,
-  //       alt: 'Robin Radar',
-  //     },
-  //     button: {
-  //       label: 'Browse the brochure',
-  //       href: '',
-  //       icon: <Image src={DocumentIcon} alt="" />,
-  //     },
-  //   },
-  //   highlights: [
-  //     {
-  //       title: 'An electric shift - Solar electric vehicles explained',
-  //       description: `A powerful shift — why it'll take more than conventional electric vehicles to scale clean mobility.`,
-  //       button: {
-  //         label: 'Read more',
-  //         href: '',
-  //         icon: <Image src={ExternalLinkIcon} alt="" />,
-  //       },
-  //     },
-  //     {
-  //       title: 'Unmatched economy - Efficient design explained',
-  //       description: `A powerful shift — why it'll take more than conventional electric vehicles to scale clean mobility.`,
-  //       button: {
-  //         label: 'Read more',
-  //         href: '',
-  //         icon: <Image src={ExternalLinkIcon} alt="" />,
-  //       },
-  //     },
-  //     {
-  //       title: 'Scripting sustainable mobility - Lightyear 0 production video',
-  //       description: `A powerful shift — why it'll take more than conventional electric vehicles to scale clean mobility.`,
-  //       button: {
-  //         label: 'Read more',
-  //         href: '',
-  //         icon: <Image src={ExternalLinkIcon} alt="" />,
-  //       },
-  //     },
-  //     {
-  //       title: 'Product launch - solar electric specs',
-  //       description: `A powerful shift — why it'll take more than conventional electric vehicles to scale clean mobility.`,
-  //       button: {
-  //         label: 'Read more',
-  //         href: '',
-  //         icon: <Image src={ExternalLinkIcon} alt="" />,
-  //       },
-  //     },
-  //   ],
-  //   recordings: null,
-  // },
+  {
+    slug: 'robin-radar',
+    thumbnail: {
+      title: 'Robin Radar',
+      subtitle: 'Writing leading B2B technology',
+      image: {
+        src: RobinRadarThumbnail,
+        alt: 'Robin Radar',
+      },
+      label: 'Read more',
+    },
+    intro: {
+      title: 'Bird or drone, we have you covered',
+      description: (
+        <>
+          <p>
+            Robin Radar Systems are experts and technology leaders in the
+            detection of small flying objects.
+          </p>
+          <p>
+            Pioneers in 3D, 360° radar coverage, we're on a mission to empower
+            aviation, defence, security, and ecology teams with a unique view of
+            their airspace.
+          </p>
+          <p>
+            Our specialised radar systems give high-quality data, instant
+            updates, and the best possible insight to react to threats and
+            hazards as they happen.
+          </p>
+          <p>
+            Our technologies are ahead of the pack. Mission-proven worldwide,
+            they’re built for detailed data logging, precise real-time updates
+            and reliable classification.
+          </p>
+        </>
+      ),
+      image: {
+        src: RobinRadarIntro,
+        alt: 'Robin Radar',
+      },
+      button: {
+        label: 'Learn more',
+        href: '#screen-recording',
+        icon: <Image src={CircleArrowIcon} alt="" />,
+      },
+    },
+    highlights: [
+      {
+        title: 'IRIS brochure',
+        description: `Discover Robin’s small, mighty 3D drone radar`,
+        button: {
+          label: 'Read my product sheet',
+          href: '/robin-radar/iris-brochure.pdf',
+          icon: <Image src={DocumentIcon} alt="" />,
+        },
+      },
+      {
+        title: 'MAX brochure',
+        description: `Discover Robin’s specialised 3D avian radar`,
+        button: {
+          label: 'Read my brochure',
+          href: '/robin-radar/max-brochure.pdf',
+          icon: <Image src={DocumentIcon} alt="" />,
+        },
+      },
+      {
+        title: 'ELVIRA brochure',
+        description: `Discover Robin’s 2D drone radar`,
+        button: {
+          label: 'Read my brochure',
+          href: '/robin-radar/elvira-brochure.pdf',
+          icon: <Image src={DocumentIcon} alt="" />,
+        },
+      },
+      {
+        title: 'MAX deploys to research australian bats',
+        description: `Learn how Robin’s 3D radar is reshaping ecological research on flying fox colonies.`,
+        button: {
+          label: 'Read my case',
+          href: 'https://www.robinradar.com/news-events/max-deploys-in-australia-for-study-on-flying-foxes-with-batonehealth',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+      {
+        title: 'World migratory bird day',
+        description: `Did you know, specialised avian radar is protecting important migration routes worldwide?`,
+        button: {
+          label: 'Read my blog',
+          href: 'https://www.robinradar.com/blog/world-migratory-bird-day-how-radar-keeps-incredible-avian-journeys-safe-and-clear',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+      {
+        title: 'Discover specialised bird radar',
+        description: `See how avian radar empowers bird control teams and elevates ecological research.`,
+        button: {
+          label: 'Read my webpage',
+          href: 'https://www.robinradar.com/products/max-radar',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+      {
+        title: ' Discover specialised drone radar',
+        description: `Learn how CUAS radars help security teams tackle the elusive drone threat.`,
+        button: {
+          label: 'Read my webpage',
+          href: 'https://www.robinradar.com/products/iris-radar',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+    ],
+    recordings: {
+      desktop: {
+        width: 1920,
+        height: 1080,
+        totalNumberOfFrames: 392,
+        framePrefix: '/robin-radar/frames/desktop/frame_',
+      },
+      mobile: {
+        width: 390,
+        height: 830,
+        totalNumberOfFrames: 676,
+        framePrefix: '/robin-radar/frames/mobile/frame_',
+      },
+      button: {
+        label: 'Visit website',
+        href: 'https://www.robinradar.com',
+        icon: <Image src={ExternalLinkIcon} alt="" />,
+      },
+    },
+  },
 ] as const;

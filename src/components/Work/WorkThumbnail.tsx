@@ -13,8 +13,8 @@ import { imageVariants } from '@/variants';
 type Props = (typeof PROJECTS)[number] &
   React.AllHTMLAttributes<HTMLDivElement>;
 
-const MotionLink = motion(Link);
-const MotionImage = motion(Image);
+const MotionLink = motion.create(Link);
+const MotionImage = motion.create(Image);
 
 export default function WorkThumbnail({ className, thumbnail, slug }: Props) {
   return (

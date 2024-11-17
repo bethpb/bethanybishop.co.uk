@@ -13,7 +13,7 @@ type ButtonLinkProps = LinkProps &
   HTMLMotionProps<'a'> &
   React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
-const MotionLink = motion(Link);
+const MotionLink = motion.create(Link);
 
 export default forwardRef<HTMLAnchorElement, ButtonLinkProps>(
   function ButtonLink({ className, intent, ...props }, ref) {

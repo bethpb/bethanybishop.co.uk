@@ -6,7 +6,7 @@ import Block from './Block';
 import Service from './Service';
 import { childVariants, containerVariants } from '@/variants';
 
-const MotionService = motion(Service);
+const MotionService = motion.create(Service);
 
 export default function Services() {
   return (

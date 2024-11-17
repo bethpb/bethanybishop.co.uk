@@ -9,8 +9,8 @@ import ButtonLink from './ButtonLink';
 import Intro from './Intro';
 import { childVariants, containerVariants } from '@/variants';
 
-const MotionIntro = motion(Intro);
-const MotionImage = motion(Image);
+const MotionIntro = motion.create(Intro);
+const MotionImage = motion.create(Image);
 
 export default function About() {
   return (

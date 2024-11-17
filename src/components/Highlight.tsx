@@ -16,8 +16,8 @@ export interface Props extends React.AllHTMLAttributes<HTMLDivElement> {
   highlight: (typeof PROJECTS)[number]['highlights'][number];
 }
 
-const MotionLink = motion(Link);
-const MotionImage = motion(Image);
+const MotionLink = motion.create(Link);
+const MotionImage = motion.create(Image);
 
 export default forwardRef<HTMLDivElement, Props>(function Highlight(
   { highlight },
