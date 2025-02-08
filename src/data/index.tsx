@@ -208,7 +208,6 @@ export const PROJECTS = [
             reality. Like our ancestors, we'll break ground. We'll let curiosity
             lead as we forge paths to a more balanced world.
             <br />
-            <br />
             There will be no looking back at the way things should have been,
             only ahead to what could be.“
           </p>
