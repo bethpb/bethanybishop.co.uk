@@ -35,6 +35,9 @@ import NtuIntro from '@/assets/projects/ntu/intro.jpg';
 import RobinRadarThumbnail from '@/assets/projects/robin-radar/thumbnail.jpg';
 import RobinRadarIntro from '@/assets/projects/robin-radar/intro.jpg';
 
+import CarbyonThumbnail from '@/assets/projects/carbyon/thumbnail.jpg';
+import CarbyonIntro from '@/assets/projects/carbyon/intro.jpg';
+
 export const HOME_PAGE = {
   metadata: {
     title: 'Bethany Bishop',
@@ -188,6 +191,144 @@ export const HOME_PAGE = {
 } as const;
 
 export const PROJECTS = [
+  {
+    slug: 'carbyon',
+    thumbnail: {
+      title: 'Carbyon',
+      subtitle: 'Extraordinary employer branding',
+      image: {
+        src: CarbyonThumbnail,
+        alt: 'Carbyon',
+      },
+      label: 'Read more',
+    },
+    intro: {
+      title: 'Carbyon captures the sky',
+      description: (
+        <>
+          <p>
+            Picture a technology that harnessed the c02 polluting our
+            atmosphere. Imagine that it could even transform it into something
+            good, like the energy that lights our homes and powers our cars.
+          </p>
+          <p>
+            Think of that. Machines cleaning our skies. Reversing climate
+            change. Converting c02 into green energy. Sounds like magic, but
+            it’s real, and the laser-focus of a determined team in Eindhoven,
+            Netherlands.
+          </p>
+          <p>
+            The first time I heard about Direct Air Capture (DAC), was in
+            meeting Carbyon. They’re a startup formed of passionate pioneers,
+            all on a mission to tackle climate change. Their work, which
+            combines engineering, chemistry and physics, will capture the sky.
+            That certainly captured my imagination.
+          </p>
+          <p>
+            Because their mission challenges the status quo, their team must be
+            extraordinary. You can imagine how excited I was to help tell their
+            captivating stories, creating an interview series that reached into
+            the depths of character, and life at a company like Carbyon.
+          </p>
+          <p>
+            It aimed to give prospective new joiners, and anyone interested in
+            Carbyon, a true idea of what it’s like to thrive in the grey space
+            between innovation, and imagination.
+          </p>
+          <p>
+            Creating compelling copy is always a joy for me. But, I’d be lying
+            if I said working with a company like Carbyon didn’t make it{' '}
+            <span className="italic">extra</span>
+            special.
+          </p>
+        </>
+      ),
+      image: {
+        src: CarbyonIntro,
+        alt: 'Carbyon',
+      },
+      button: {
+        label: 'Learn more',
+        href: '#screen-recording',
+        icon: <Image src={CircleArrowIcon} alt="" />,
+      },
+    },
+    highlights: [
+      {
+        title: 'Growth that Defies Reason',
+        description: `Meet Carbyon’s Research Associate, Cristhal. She weaves her Guatemalan heritage into a scientific approach every day.`,
+        button: {
+          label: 'Meet Cristhal',
+          href: 'https://careers.carbyon.com/meet-cristhal',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+      {
+        title: 'Blue Sky Thinking',
+        description: `Meet Manager Manufacturing Engineering, Bogdan. His work scratches an itch to go where none have been before.`,
+        button: {
+          label: 'Meet Bogdan',
+          href: 'https://careers.carbyon.com/meet-bogdan',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+      {
+        title: 'The Exception the the Rule',
+        description: `Meet Modeling Engineer, Luuk. He envisions the bright potential of cause and effect on a huge, global scale.`,
+        button: {
+          label: 'Meet Luuk',
+          href: 'https://careers.carbyon.com/meet-luuk',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+      {
+        title: 'The Science of Humility',
+        description: `Meet Research & Development Manager, Cristiana. Although a woman of science and data, instinct guides her every move.`,
+        button: {
+          label: 'Meet Cristiana',
+          href: 'https://careers.carbyon.com/meet-cristiana',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+      {
+        title: 'Call of the wild',
+        description: `Meet Data Scientist, Girmi. The urge to stray far from the beaten track guides Girmi in life, as well as his work.`,
+        button: {
+          label: 'Meet Girmi',
+          href: 'https://careers.carbyon.com/meet-girmi',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+      {
+        title: 'A mission that moves us ',
+        description: `As well as getting to know the people of Carbyon, I was thrilled to help refine the copy on their careers website.`,
+        button: {
+          label: ' Read my web copy',
+          href: 'https://careers.carbyon.com/the-team',
+          icon: <Image src={ExternalLinkIcon} alt="" />,
+        },
+      },
+    ],
+    recordings: {
+      desktop: {
+        width: 1920,
+        height: 1080,
+        totalNumberOfFrames: 270,
+        framePrefix: '/carbyon/frames/desktop/frame_',
+      },
+      mobile: {
+        width: 390,
+        height: 830,
+        totalNumberOfFrames: 336,
+        framePrefix: '/carbyon/frames/mobile/frame_',
+      },
+      button: {
+        label: 'Visit website',
+        href: 'https://careers.carbyon.com',
+        icon: <Image src={ExternalLinkIcon} alt="" />,
+      },
+    },
+  },
   {
     slug: 'lightyear',
     thumbnail: {
