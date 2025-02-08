@@ -471,19 +471,27 @@ export const PROJECTS = [
             detection of small flying objects.
           </p>
           <p>
-            Pioneers in 3D, 360° radar coverage, we're on a mission to empower
+            Their specialised radar systems give high-quality data, instant
+            updates, and the best possible insight to react to threats and
+            hazards as they happen. And, excitingly, their technologies are
+            truly ahead of the pack.
+          </p>
+          <p>
+            Pioneers in 3D, 360° radar coverage, they’re on a mission to empower
             aviation, defence, security, and ecology teams with a unique view of
             their airspace.
           </p>
           <p>
-            Our specialised radar systems give high-quality data, instant
-            updates, and the best possible insight to react to threats and
-            hazards as they happen.
+            Through compelling web copy, insightful blogs, captivating product
+            brochures and thought-provoking social media posts, it’s my pleasure
+            to help them.
           </p>
           <p>
-            Our technologies are ahead of the pack. Mission-proven worldwide,
-            they’re built for detailed data logging, precise real-time updates
-            and reliable classification.
+            Robin is a fantastic example of a B2B technology company with a
+            bold, expressive, and human brand. As well as refining their
+            authentic and uncomplicated tone of voice, I’m thrilled to bits to
+            have helped them weave it through a swish new website and every
+            commercial material, from product brochures to brand guides.
           </p>
         </>
       ),
