@@ -209,9 +209,8 @@ export const PROJECTS = [
           <p>
             Picture a technology that could harness the C02 polluting our
             atmosphere. That it could even transform it into something
-            good, like the energy that lights our homes and powers our cars. Think of that. Machines cleaning our skies. Reversing climate
-            change. Converting C02 into green energy. Well, it’s real, and the laser-focus of a determined team in Eindhoven,
-            the Netherlands.
+            good, like the energy that lights our homes and powers our cars. Machines cleaning our skies. Reversing climate
+            change. Poweringthe world, and empowering society. Well, it’s real, and the laser-focus of a determined team in Eindhoven (NL).
           </p>
           <p>
             Meeting Carbyon meant my first time hearing about Direct Air Capture (DAC). This startup is formed of passionate pioneers,
@@ -219,12 +218,11 @@ export const PROJECTS = [
             combines engineering, chemistry and physics, captures the sky.
           </p>
           <p>
-            Because their mission challenges the status quo, their team must be
-            extraordinary. You can imagine how excited I was to help tell their
-            captivating stories, creating an interview series that spotlit some of Carbyon's brilliant characters.
-            The series gives prospective new joiners, and anyone interested in
-            Carbyon, a true idea of what it’s like to thrive in the grey space
-            between innovation, and imagination.
+            Because the company challenges the status quo, their people must be
+            extraordinary. You can imagine how excited I was to help tell some of their
+            captivating stories, creating an interview series that spotlit Carbyon's brilliant characters.
+            Aimed at prospective hires, the series gives a true glimpse of what it’s like to thrive in the grey space
+            between innovation and imagination.
           </p>
           <p>
             I also helped Carbyon perfect the copy on their careers website. I ensured consistent brand tone and punchy prose — that each word measured up to the unique chance, and exhilarating challenge, of joining the company. Supporting employer branding is always a joy for me, especially when it involves writing talented people. I’d be lying
@@ -280,7 +278,7 @@ export const PROJECTS = [
         },
       },
       {
-        title: 'Call of the wild',
+        title: 'Call of the Wild',
         description: `Meet Data Scientist, Girmi. The urge to stray far from the beaten track guides Girmi in life, as well as his work.`,
         button: {
           label: 'Meet Girmi',
@@ -289,7 +287,7 @@ export const PROJECTS = [
         },
       },
       {
-        title: 'A mission that moves us ',
+        title: 'A Mission that Moves Us ',
         description: `As well as getting to know the people of Carbyon, I was thrilled to help refine the copy on their careers website.`,
         button: {
           label: ' Read my web copy',
