@@ -268,7 +268,7 @@ export const PROJECTS = [
         },
       },
       {
-        title: 'The ccience of humility',
+        title: 'The science of humility',
         description: `Meet Research & Development Manager, Cristiana. Although a woman of science and data, instinct guides her every move.`,
         button: {
           label: 'Meet Cristiana',
