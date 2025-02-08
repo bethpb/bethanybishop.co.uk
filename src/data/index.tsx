@@ -203,25 +203,38 @@ export const PROJECTS = [
       title: 'Range gifted by sunlight',
       description: (
         <>
-          <p>
-            Humans are instinctive travellers. We've wandered nomadically for
-            centuries, pressed to conquer the horizon.
-          </p>
-          <p>
-            Mobility began as an instinct, but today it's essential, and our
-            need to move has taken us a step too far. The energy crisis is
-            enduring. Climate change is advancing.
-          </p>
-          <p>
-            At Lightyear, we believe the time has come to engineer a new
+          <p className="italic">
+            “At Lightyear, we believe the time has come to engineer a new
             reality. Like our ancestors, we'll break ground. We'll let curiosity
             lead as we forge paths to a more balanced world.
+            <br />
+            <br />
+            There will be no looking back at the way things should have been,
+            only ahead to what could be.“
           </p>
           <p>
-            There will be no looking back at the way things should have been,
-            only ahead to what could be.
+            Humans are instinctive travellers. We've wandered nomadically for
+            centuries, pressed to conquer the horizon. Lightyear offered a
+            product that tapped into human nature, winding back the wheel to
+            make our need to move truly sustainable. The world’s first solar
+            electric car, Lightyear 0.
           </p>
-          <p>Solar electric cars that flip the script for a cleaner future.</p>
+          <p>
+            As Senior Copywriter for the visionary brand, I was determined to
+            win belief in it, and do all of its astounding innovation justice.
+            It was my role to not only refine but create and protect a powerful,
+            incandescent voice for Lightyear. Their solar electric cars flipped
+            the script for a cleaner future, so did I.
+          </p>
+          <p>
+            In a vibrant team of creative minds, it was my role to write
+            compelling campaigns on every medium. From technical blogs that
+            captured the components, testing and innovation of our car, to
+            emails, social posts, graphics, brochures, video ad scripts, brand
+            guides, a whole new website, and even the unique interface of the
+            car itself.
+          </p>
+          <p>It was quite the ride.</p>
         </>
       ),
       image: {
@@ -323,7 +336,6 @@ export const PROJECTS = [
           href: '/lightyear/production.mp4',
         },
       },
-
       {
         title: '10 things you may not know about solar technology',
         description: `Discover the origins of solar energy as we unpick how the sun gifts power to the earth.`,
@@ -349,7 +361,7 @@ export const PROJECTS = [
       },
       button: {
         label: 'Visit website',
-        href: 'https://lightyear.one/lightyear-2',
+        href: 'https://lightyear.one/impact',
         icon: <Image src={ExternalLinkIcon} alt="" />,
       },
     },
