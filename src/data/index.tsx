@@ -15,7 +15,7 @@ import ExternalLinkIcon from '@/assets/external-link.svg';
 import BritishIceSkatingLogo from '@/assets/logos/british-ice-skating.gif';
 import BritishTaekwondoLogo from '@/assets/logos/british-taekwondo.svg';
 import BuzzFeedLogo from '@/assets/logos/buzzfeed.svg';
-import GoodHousekeepingLogo from '@/assets/logos/good-housekeeping.svg';
+import CarbyonLogo from '@/assets/logos/carbyon.webp';
 import LightyearLogo from '@/assets/logos/lightyear.svg';
 import NtuLogo from '@/assets/logos/ntu.svg';
 import RobinRadarLogo from '@/assets/logos/robin-radar.svg';
@@ -142,8 +142,8 @@ export const HOME_PAGE = {
   },
   brands: [
     {
-      name: 'Good Housekeeping',
-      logo: GoodHousekeepingLogo,
+      name: 'Carbyon',
+      logo: CarbyonLogo,
     },
     {
       name: 'BuzzFeed',
