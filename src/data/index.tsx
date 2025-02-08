@@ -241,7 +241,7 @@ export const PROJECTS = [
     },
     highlights: [
       {
-        title: 'Growth that Defies Reason',
+        title: 'Growth that defies reason',
         description: `Meet Carbyon’s Research Associate, Cristhal. She weaves her Guatemalan heritage into a scientific approach every day.`,
         button: {
           label: 'Meet Cristhal',
@@ -250,7 +250,7 @@ export const PROJECTS = [
         },
       },
       {
-        title: 'Blue Sky Thinking',
+        title: 'Blue sky thinking',
         description: `Meet Manager Manufacturing Engineering, Bogdan. His work scratches an itch to go where none have been before.`,
         button: {
           label: 'Meet Bogdan',
@@ -259,7 +259,7 @@ export const PROJECTS = [
         },
       },
       {
-        title: 'The Exception the the Rule',
+        title: 'The exception the the rule',
         description: `Meet Modeling Engineer, Luuk. He envisions the bright potential of cause and effect on a huge, global scale.`,
         button: {
           label: 'Meet Luuk',
@@ -268,7 +268,7 @@ export const PROJECTS = [
         },
       },
       {
-        title: 'The Science of Humility',
+        title: 'The ccience of humility',
         description: `Meet Research & Development Manager, Cristiana. Although a woman of science and data, instinct guides her every move.`,
         button: {
           label: 'Meet Cristiana',
@@ -277,7 +277,7 @@ export const PROJECTS = [
         },
       },
       {
-        title: 'Call of the Wild',
+        title: 'Call of the wild',
         description: `Meet Data Scientist, Girmi. The urge to stray far from the beaten track guides Girmi in life, as well as his work.`,
         button: {
           label: 'Meet Girmi',
@@ -286,7 +286,7 @@ export const PROJECTS = [
         },
       },
       {
-        title: 'A Mission that Moves Us ',
+        title: 'A mission that moves us',
         description: `As well as getting to know the people of Carbyon, I was thrilled to help refine the copy on their careers website.`,
         button: {
           label: ' Read my web copy',
@@ -609,7 +609,7 @@ export const PROJECTS = [
           </p>
           <p>
             Through compelling web copy, insightful blogs, captivating product
-            brochures and thought-provoking social media posts, it’s my pleasure
+            sheets and thought-provoking social media posts, it’s my pleasure
             to help them.
           </p>
           <p>
@@ -617,7 +617,7 @@ export const PROJECTS = [
             bold, expressive, and human brand. As well as refining their
             authentic and uncomplicated tone of voice, I’m thrilled to bits to
             have helped them weave it through a swish new website and every
-            commercial material, from product brochures to brand guides.
+            commercial material, from brochures to brand guides.
           </p>
         </>
       ),
