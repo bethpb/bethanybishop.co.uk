@@ -207,36 +207,29 @@ export const PROJECTS = [
       description: (
         <>
           <p>
-            Picture a technology that harnessed the c02 polluting our
-            atmosphere. Imagine that it could even transform it into something
-            good, like the energy that lights our homes and powers our cars.
+            Picture a technology that could harnessed the C02 polluting our
+            atmosphere. That it could even transform it into something
+            good, like the energy that lights our homes and powers our cars. Think of that. Machines cleaning our skies. Reversing climate
+            change. Converting C02 into green energy. Well, it’s real, and the laser-focus of a determined team in Eindhoven,
+            the Netherlands.
           </p>
           <p>
-            Think of that. Machines cleaning our skies. Reversing climate
-            change. Converting c02 into green energy. Sounds like magic, but
-            it’s real, and the laser-focus of a determined team in Eindhoven,
-            Netherlands.
-          </p>
-          <p>
-            The first time I heard about Direct Air Capture (DAC), was in
-            meeting Carbyon. They’re a startup formed of passionate pioneers,
+            Meeting Carbyon meant my first time hearing about Direct Air Capture (DAC). This startup is formed of passionate pioneers,
             all on a mission to tackle climate change. Their work, which
-            combines engineering, chemistry and physics, will capture the sky.
-            That certainly captured my imagination.
+            combines engineering, chemistry and physics, captures the sky.
           </p>
           <p>
             Because their mission challenges the status quo, their team must be
             extraordinary. You can imagine how excited I was to help tell their
-            captivating stories, creating an interview series that reached into
-            the depths of character, and life at a company like Carbyon.
+            captivating stories, creating an interview series that spotlit some of Carbyon's brilliant characters.
           </p>
           <p>
-            It aimed to give prospective new joiners, and anyone interested in
+            The series gives prospective new joiners, and anyone interested in
             Carbyon, a true idea of what it’s like to thrive in the grey space
             between innovation, and imagination.
           </p>
           <p>
-            Creating compelling copy is always a joy for me. But, I’d be lying
+            Writing extraordinary people is always a joy for me. But, I’d be lying
             if I said working with a company like Carbyon didn’t make it <span className="italic">extra</span> special.
           </p>
         </>
