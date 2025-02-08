@@ -237,9 +237,7 @@ export const PROJECTS = [
           </p>
           <p>
             Creating compelling copy is always a joy for me. But, I’d be lying
-            if I said working with a company like Carbyon didn’t make it{' '}
-            <span className="italic">extra</span>
-            special.
+            if I said working with a company like Carbyon didn’t make it <span className="italic">extra</span> special.
           </p>
         </>
       ),
