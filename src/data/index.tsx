@@ -225,8 +225,7 @@ export const PROJECTS = [
             between innovation and imagination.
           </p>
           <p>
-            I also helped Carbyon perfect the copy on their careers website. I ensured consistent brand tone and punchy prose — that each word measured up to the unique chance, and exhilarating challenge, of joining the company. Supporting employer branding is always a joy for me, especially when it involves writing talented people. I’d be lying
-            if I said working with a company like Carbyon didn’t make it <span className="italic">extra</span> special.
+            I also helped Carbyon perfect the copy on their careers website. I ensured consistent brand tone and punchy prose — that each word measured up to the unique chance, and exhilarating challenge, of joining the company. Supporting employer branding is always a joy for me, especially when it involves writing exceptional people.
           </p>
         </>
       ),
