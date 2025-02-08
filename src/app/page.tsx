@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import About from '@/components/About';
@@ -11,6 +11,10 @@ import PageContainer from '@/components/PageContainer';
 export const metadata: Metadata = {
   title: HOME_PAGE.metadata.title,
   description: HOME_PAGE.metadata.description,
+};
+
+export const viewport: Viewport = {
+  themeColor: '#6a86d8', // secondary
 };
 
 export default function HomePage() {
