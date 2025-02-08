@@ -207,7 +207,7 @@ export const PROJECTS = [
       description: (
         <>
           <p>
-            Picture a technology that could harnessed the C02 polluting our
+            Picture a technology that could harness the C02 polluting our
             atmosphere. That it could even transform it into something
             good, like the energy that lights our homes and powers our cars. Think of that. Machines cleaning our skies. Reversing climate
             change. Converting C02 into green energy. Well, it’s real, and the laser-focus of a determined team in Eindhoven,
@@ -222,14 +222,12 @@ export const PROJECTS = [
             Because their mission challenges the status quo, their team must be
             extraordinary. You can imagine how excited I was to help tell their
             captivating stories, creating an interview series that spotlit some of Carbyon's brilliant characters.
-          </p>
-          <p>
             The series gives prospective new joiners, and anyone interested in
             Carbyon, a true idea of what it’s like to thrive in the grey space
             between innovation, and imagination.
           </p>
           <p>
-            Writing extraordinary people is always a joy for me. But, I’d be lying
+            I also helped Carbyon perfect the copy on their careers website. I ensured consistent brand tone and punchy prose — that each word measured up to the unique chance, and exhilarating challenge, of joining the company. Supporting employer branding is always a joy for me, especially when it involves writing talented people. I’d be lying
             if I said working with a company like Carbyon didn’t make it <span className="italic">extra</span> special.
           </p>
         </>
