@@ -210,7 +210,7 @@ export const PROJECTS = [
             Picture a technology that could harness the C02 polluting our
             atmosphere. That it could even transform it into something
             good, like the energy that lights our homes and powers our cars. Machines cleaning our skies. Reversing climate
-            change. Poweringthe world, and empowering society. Well, it’s real, and the laser-focus of a determined team in Eindhoven (NL).
+            change. Powering the world, and empowering society. Well, it’s real, and the laser-focus of a determined team in Eindhoven (NL).
           </p>
           <p>
             Meeting Carbyon meant my first time hearing about Direct Air Capture (DAC). This startup is formed of passionate pioneers,
@@ -219,13 +219,12 @@ export const PROJECTS = [
           </p>
           <p>
             Because the company challenges the status quo, their people must be
-            extraordinary. You can imagine how excited I was to help tell some of their
-            captivating stories, creating an interview series that spotlit Carbyon's brilliant characters.
+            extraordinary. You can imagine how excited I was to help tell some of their stories, creating an interview series that spotlit Carbyon's brilliant characters.
             Aimed at prospective hires, the series gives a true glimpse of what it’s like to thrive in the grey space
-            between innovation and imagination.
+            between innovation and imagination. Each represents a unique thread of Carbyon. 
           </p>
           <p>
-            I also helped Carbyon perfect the copy on their careers website. I ensured consistent brand tone and punchy prose — that each word measured up to the unique chance, and exhilarating challenge, of joining the company. Supporting employer branding is always a joy for me, especially when it involves writing exceptional people.
+            I also helped Carbyon perfect the copy on their careers website. I ensured consistent brand tone and punchy prose — that each word measured up to the unique chance, and exhilarating challenge, of joining the company. Supporting employer branding is always a joy, especially when it involves writing exceptional people.
           </p>
         </>
       ),
